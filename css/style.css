@@ -1,0 +1,1223 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  'Oswald', sans-serif;
+}
+section{
+    padding: 80px 0px;
+}
+
+.topbarmain{
+    background:#f5f5f5;
+}
+.container{
+    width:1140px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:auto;
+}
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.email {
+    width: 748px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.social {
+    width: 142px;
+    float: left;
+    transition: 0.3s;
+}
+.topbarwrapper{
+    overflow:hidden;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b;
+}
+.social i:hover{
+    color:#FF4800;
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+
+}
+.phone i, .email i{
+    color:#FF4800;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+/* primary manubar start hare */
+.primarywrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 25px;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+ul.mainmenuitem {
+    list-style: none;
+    float: right;
+}
+
+
+
+ul.mainmenuitem li {
+    float: left;
+}
+
+ul.mainmenuitem li a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    padding: 35px 20px;
+    color: #000000;
+    font-weight: 600;
+    transition: 0.3s;
+}
+ul.mainmenuitem li a:hover{
+    color: #FF4800;
+}
+/* primary manubar end hare */
+
+/* slider section start hare */
+
+#homeslider{
+    background: url(../image/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px 0px;
+
+
+}
+.slidercontent{
+    color:#f5f5f5;
+    width:600px;
+
+
+
+
+}
+.slidercontent h1{
+    font-weight: 600;
+    font-size:50px;
+    text-transform:uppercase;
+    margin-bottom:30px;
+    margin-top: 85px;
+    float: left;
+}
+.slidercontent p{
+    font-weight:500;
+    line-height:25px;
+    width:480px;
+    margin-bottom:30px;
+
+}
+button.sliderworkbutton {
+    background: #ff5200;
+    padding: 14px 18px;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 85px;
+    transition:0.3s;
+}
+button.sliderworkbutton:hover{
+	background:#000000;
+	
+	
+ }
+.sliderNav{
+    width: 56px;
+    margin:auto;
+    padding: 40px 0px;
+}
+.sliderNav span{
+    width: 10px;
+    height:10px;
+    display:block;
+    background:transparent;
+    border: 3px solid #ffebeb;
+    border-radius:100%;
+    float: left;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+.sliderNav span:last-child{
+    background:#ff5200;
+    border-color:#ff5200;
+}
+
+/* service section start hare */
+
+#service{
+    background: #f5f6f6;
+}
+.Sboxwrapper {
+    overflow: hidden;
+}
+
+.singlebox.singleboxactive{
+    background: #fb5200;
+    color: white;
+}
+.singlebox.singleboxactive h2{
+    color: white;
+}
+.singlebox.singleboxactive a{
+    color: white;
+}
+.singlebox.singleboxactive i{
+    color: white;
+}
+
+.singlebox {
+    width: 222px;
+    padding: 15px;
+    background: white;
+    margin-right:30px;
+    float: left;
+    transition: .3s;
+    border: 1px solid #e4e4e4;
+}
+
+.singlebox:hover{
+    background: #fb5200;
+    color: #f5f5f5;
+    cursor: pointer;
+
+}
+
+.singlebox:hover h2{
+    color: #f5f5f5;
+}
+
+.singlebox:hover i{
+    color: #f5f5f5;
+}
+
+.singlebox:hover .sboxLink a{
+    color: #f5f5f5;
+}
+
+.sboxTitle {
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+.sboxTitle h2{   
+    font-size: 20px;   
+    line-height: 28px;   
+    text-transform: uppercase;   
+    color: rgba(39, 32, 32, 0.781);  
+    margin: 30px 0px;
+}
+.sboxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #fb5200;
+    margin: 30px 0px;
+}
+
+.sboxDesc {
+    text-align: center;
+    margin: 30px 0px;
+}
+.sboxDesc p {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.sboxLink {
+    text-align: center;
+    margin: 30px 0px;
+}
+.sboxLink a i{
+    margin-left: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 500;
+}
+
+/* service section end */
+
+
+/* Our team section start hare */
+
+.Teamcontents {
+    overflow: hidden;
+}
+
+.TeamImage {
+    width: 535px;
+    float: left;
+}
+
+.TeamImage img {
+    max-width: 100%;
+}
+
+.TeamDetails {
+    width: 535px;
+    float: right;
+    margin-top: 5px;
+}
+
+.TitleDesc h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.TitleDesc p {
+    margin-bottom: 15px;
+    line-height: 25px;
+    word-spacing: 4px;
+    color: #666;
+}
+.TeamFaciliteies ul li {
+    line-height: 40px;
+}
+
+.TeamFaciliteies ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+
+
+}
+.TeamFaciliteies ul li a:hover{
+    color: #fb5200;
+}
+
+.TeamFaciliteies ul li a i{
+    font-size: 10px;
+    margin-right: 8px;
+
+}
+
+.TeamFaciliteies ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    float: left;
+}
+.TeamFaciliteies {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+a {}
+
+.TeamContactBtn a {
+    color: #f5f5f5f5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.TeamContactBtn button {
+    padding: 15px 25px;
+    background: #fb5200;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.TeamContactBtn button:hover{
+    background: #000;
+}
+
+/* ourTeam section end hare */
+
+/* whychooseUS section start hare */
+
+#WhyChooseUs{
+    background: linear-gradient(#1f1e1e7c,#0f0f0f7c), url(../image/featured.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.singleicons {
+    width: 250px;
+    text-align: center;
+    color: #f5f5f5;
+    float: left;
+    margin: 0px 17px;
+}
+
+.singleicons .sicon i{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+
+.singleicons h2 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: arial;
+    margin: 10px 0px;
+}
+
+.singleicons h4 {
+    font-size: 18px;
+}
+.iconWrapper {
+    overflow: hidden;
+}
+
+/* whychooseUS section end */
+
+/* blogpost section start hare */
+#Blogposts{
+    background: #f6f6f6;
+}
+
+.Sectitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Sectitle h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 5px 0px;
+}
+
+
+
+
+.Sectitle p {
+    width: 500px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #666;
+}
+
+.postWrapper{
+    overflow: hidden;
+}
+
+.singlepost {
+    width: 255px;
+    float: left;
+    margin: 0px 15px;
+}
+
+.singlepost img {
+    max-width: 100%;
+}
+.postImage {
+    margin-bottom: 10px;
+}
+
+.postInfo h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.postInfo p {
+    margin-top: 10px;
+    line-height: 23px;
+}
+
+/* Blogpost section end hare */
+
+/* Price_Planing section start hare */
+
+.PricelistWrapper{
+    overflow: hidden;
+
+}
+
+.singlePriceBox{
+    width: 287px;
+    padding: 30px;
+    margin: 0px 15px;
+    border: 1px solid #c7c7c766;
+    float: left;
+    box-shadow: 2px 17px 12px 10px #f4f4f4;
+    cursor: pointer;
+}
+
+.singlePriceBox:first-child{
+    box-shadow: -4px 10px 18px 7px #f4f4f4;
+}
+
+
+
+
+.singlePriceBox:last-child {
+    box-shadow: 7px 9px 14px #c7c7c766;
+}
+
+
+.singlePriceBox h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.singlePriceBox h1 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: arial;
+    margin: 10px 0px;
+}
+
+.singlePriceBox h1 span {
+    font-size: 20px;
+}
+.singlePriceBox ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.singlePriceBox ul li {
+    line-height: 35px;
+}
+
+.singlePriceBox ul li i {
+    font-size: 10px;
+    margin-right: 5px;
+    color: #fb5200;
+}
+
+.PriceBtn button{
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    background: #fb5200;
+    padding: 15px 35px;
+    color: #f5f5f5;
+    border-radius: 3px;
+    border: none;
+    margin: 15px 0px;
+    font-weight: 700;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.PriceBtn button:hover{
+    background: #000;
+}
+
+
+/* Price_Planing section end hare */
+
+/* Ideas section start hare */
+
+
+#Ideas_section {
+    overflow: hidden;
+    padding: 0px;
+    height: 462px;
+    position: relative;
+}
+
+/* IdeasLeftContent */
+.IdeasLeftContents{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.IdeasLeftContents img{
+    width: 100%;
+
+
+}
+/* IdeasLeftContent end */
+
+/* Ideas Right Content  */
+.IdeasRightContents {
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: #f5f5f5;
+    background: #222;
+}
+.rContentsTitle {
+    padding: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+.rContentsTitle h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.rContentsTitle p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.rContentsSingleIcon {
+    width: 270px;
+    padding-left: 70px;
+    float: left;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.rContentsSingleIcon .SingleIcon {
+    float: left;
+    margin-top: 8px;
+}
+
+.rContentsSingleIcon .SingleIcon i {
+    font-size: 35px;
+    color: #fb5200;
+}
+
+.rContentsSingleIcon .SingleIconInfo {
+    float: right;
+    width: 210px;
+}
+.rContentsSingleIcon .SingleIconInfo h2 {
+    font-size: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+.rContentsSingleIcon .SingleIconInfo h2:hover{
+    color: #fb5200;
+}
+.rContentsSingleIcon .SingleIconInfo p {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+/* Ideas Right Content end */
+/* Ideas section end hare */
+
+
+
+/* MeetOurs Section start  */
+
+.MeetOursPersonList {
+    overflow: hidden;
+}
+
+.SinglePerson {
+    width: 253px;
+    float: left;
+    margin: 0px 15px;
+    cursor: pointer;
+    
+}
+
+.SinglePerson img {
+    width: 100%;
+    transition: .3s;
+}
+
+.PersonInfo {
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    margin-top: -2px;
+}
+
+.PersonInfo h3 {
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.PersonInfo p {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Meetours button design start */
+.JoinOursPersonBtn {
+    display: grid;
+    place-items: center;
+    margin: 60px;
+}
+
+.JoinOursPersonBtn button {
+    background:#000;
+    color: #f5f5f5f5;
+    padding: 12px 40px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    transition: .3s;
+    cursor:pointer;
+}
+
+.JoinOursPersonBtn button:hover{
+    background: #fb5200;
+    
+}
+/* Meetours button design end */
+
+/* Social Icon Designing */
+
+.PersonImage {
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.SocialIcons {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+}
+
+.SocialIcons a {
+    width: 20px;
+    height: 20px;
+    background: red;
+    place-items: center;
+    display: inline-grid;
+    border-radius: 100%;
+    padding: 5px;
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: .3s;
+}
+
+.SocialIcons a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: .8s;
+}
+
+.SocialIcons a:nth-child(2){
+    background: #00acee;
+    opacity: 0;
+    transition: .6s;
+}
+
+.SocialIcons a:nth-child(3){
+    background: #db4a39;
+    opacity: 0;
+    transition: .4s;
+}
+
+.SocialIcons a:last-child{
+    background: #0077b5;
+    opacity: 0;
+    transition: .2s;
+
+}
+.SocialIcons a:hover{
+    background: #f5f5f5;
+    color: #000;
+}
+
+.SinglePerson:hover .SocialIcons a{
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+
+.SinglePerson:hover .PersonImage img{
+    transform: scale(1.1);
+}
+
+
+/* social Icon desining end */
+/* MeetOurs Section end  */
+
+/* Projects section start hare */
+
+#Projects{
+    background: #f6f6f6;
+}
+
+.ProjectsWrapper {
+    overflow: hidden;
+    column-count: 3;
+}
+
+.singleProjects {
+    width: 350px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.singleProjects  img {
+    width: 100%;
+}
+
+.ProjectsInfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.774), transparent);
+    color: #f5f5f5;
+    width: 100%;
+    padding: 20px 30px;
+    transition: .3s;
+}
+.ProjectTitle {
+    width: 277px;
+    margin: 15px 0px;
+}
+
+.ProjectTitle h3 {
+    margin: 5px 0px;
+}
+
+.ProjectsInfo a {
+    color: #f5f5f5;
+}
+
+.ProjectsInfo a#LearnMoreBtn i {
+    margin-left: 12px;
+    font-size: 10px;
+}
+
+.ProjectsInfo a#LearnMoreBtn {
+    text-decoration: none;
+    transform: translateX(-150px);
+    visibility: hidden;
+    display: block;
+}
+
+.singleProjects:hover .ProjectsInfo{
+    padding: 60px 30px;
+}
+
+.singleProjects:hover .ProjectsInfo a#LearnMoreBtn{
+    transform: translateX(0px);
+    visibility: visible;
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+
+/* Project section end hare */
+
+/* News section start hare */
+.NewslistWrapper {
+    overflow: hidden;
+}
+
+.singleNewsBox {
+    width: 347px;
+    float: left;
+    margin: 0px 15px;
+}
+
+.NewsImage img {
+    width: 100%;
+    transition: .3s;
+    display: block;
+}
+
+.NewsImage {
+    overflow:hidden;
+}
+
+.NewsMeta {
+    padding: 25px;
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+}
+
+.NewsTitle h2 {
+    padding: 5px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    word-spacing: 2px;
+    margin: 15px 0px;
+    transition: .3s;
+    cursor: pointer;
+}
+.NewsTitle h2:hover {
+    color: #fb5200;}
+
+.NewsTitle p {
+    line-height: 25px;
+    margin: 10px 0px;
+    color: #666;
+
+}
+.NewsCatagory {
+    overflow: hidden;
+}
+
+.NewsCatagory a {
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+    width: 100px;
+    color: #8c8c8c;
+}
+.NewsCatagory a:last-child {
+    margin-left: 15px;
+    color: #000;
+    transition: .3s;
+}
+.NewsCatagory a:last-child:hover{
+    color: #fb5200;
+}
+
+a#ReadMoreBtn i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+a#ReadMoreBtn{
+    color: #fb5200;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 500;
+    display: block;
+}
+.singleNewsBox:hover .NewsImage img {
+    transform: scale(1.04);
+}
+/* News section end hare */
+
+
+/* Subcribe section start hare */
+
+section#Subscribe_section {
+    position: relative;
+    margin-bottom: -150px;
+    padding-top: 0px;
+}
+
+.subBoxWrapper {
+    overflow: hidden;
+    background: #fb5200;
+    border-radius: 3px;
+}
+
+.singlesubBox {
+    float: left;
+    width: 300px;
+    padding: 40px;
+    color: #f5f5f5;
+}
+
+.singlesubBox h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.singlesubBox .InputItems{
+    position: relative;
+}
+.singlesubBox .InputItems input:first-child{
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    letter-spacing: 1px;
+
+}
+#subSubmitBtn {
+    width: 120px;
+    padding: 12px;
+    font-family: 'Oswald';
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    background: #000;
+    color: #f5f5f5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    letter-spacing: 1px;
+    
+}
+.singlesubBox p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.SubBoxIcons {
+    overflow: hidden;
+}
+
+.SubBoxIcons a {
+    color: #f5f5f5;
+    border: 1px solid;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: inline-grid;
+    place-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .5s;
+}
+.SubBoxIcons a:hover{
+    background: #f5f5f5;
+    color: #000;
+    border: 1px solid #f5f5f5;
+}
+
+/* Subcribe section end hare */
+
+
+/* Footer secton start hare */
+footer#footer_section {
+    background: #1a1a1a;
+    color: #f5f5f5;
+    padding-top: 150px;
+}
+
+.fboxWrapper {
+    overflow: hidden;
+}
+
+.singlefBox {
+    width: 250px;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.singlefBox h3 {
+    margin: 20px 0px;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* first singlefBox */
+.singlefBox p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.fIcons i {
+    color: #999;
+    font-size: 16px;
+    margin: 0px 5px;
+    transition: .3s;
+}
+
+.fIcons i:hover {
+    color: #fb5200;
+}
+
+
+
+
+/* Second singlefBox */
+
+
+ul#ContactUL li {
+    overflow: hidden;
+    line-height: 26px;
+    border: none;
+    margin-top: 5px;
+    
+}
+
+ul#ContactUL li i {
+    width: 30px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    color: #fb5200;
+}
+
+ul#ContactUL li span {
+    width: 210px;
+    float: right;
+    margin-top: 0px;
+}
+
+.singlefBox span i {
+    color: #fb5200;
+    margin-right: 15px;
+}
+/* Third singlefBox */
+
+ul#USEul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul#USEul li {
+    margin: 16px 0px;
+    border-bottom: 1px dashed #333333b5;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+ul#USEul li a {
+    color: #999;
+    text-decoration: none;
+    transition: .3s;
+}
+ul#USEul li a:hover{
+    color: #fb5200;
+}
+
+ul#USEul li a i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+ul#USEul li:last-child {
+    border: none;
+}
+
+
+
+/* Fourth singlefBox */
+.fRpost {
+    overflow: hidden;
+}
+
+.fRpostMeta {
+    float: left;
+    width: 35px;
+    background: #353535;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #f5f5f5;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.fRpostMeta span:first-child {
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.fRpostMeta span {
+    margin: 0px;
+}
+
+.fRpostTitle {
+    float: right;
+    width: 160px;
+}
+
+.fRpostTitle h4 {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.fRpostTitle h4 a {
+    color: #adadad;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+}
+.fRpostTitle h4 a:hover{
+    color: #fb5200;
+}
+
+.fRpostTitle a {
+    text-decoration: none;
+    color: #666;
+}
+
+.fRpostTitle a i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+
+
+/* CopyRight Container  */
+
+.CopyRightContainer {
+    overflow: hidden;
+    border-top: 1px solid rgba(107, 107, 107, 0.233);
+    padding: 30px;
+}
+
+
+.CopyRightText {
+    color: #999;
+    width: 570px;
+    float: left;}
+
+
+.CopyRightMenu {
+    float: right;
+    width: 570px;
+}
+
+.CopyRightMenu ul {
+    margin: 0px;
+    pad: 0px;
+    list-style: none;
+    float: right;
+}
+
+.CopyRightMenu ul li {
+    float: left;
+}
+
+
+
+.CopyRightMenu ul li a {
+    color: #999;
+    text-decoration: none;
+    padding: 15px;
+}
